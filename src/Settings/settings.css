@@ -1,0 +1,36 @@
+.enterButton {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: lightgrey;
+    transition: background 3s ease;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.enterButton:hover {
+    background: rgb(69, 178, 211);
+    text-decoration:underline;
+}
+
+.input {
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 70%;
+}
+
+.settingsContainer {
+    background: white;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
