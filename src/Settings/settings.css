@@ -28,9 +28,18 @@
 }
 
 .settingsContainer {
-    background: white;
+    background: #f0f0f0;
     width: 40%;
     margin: auto;
     border-radius: 10px;
     border: 1px solid gray;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    position: fixed;
+}
+
+.elevatorPeak {
+    filter: blur(2px);
+    pointer-events: none !important;
 }
